@@ -9,7 +9,7 @@ compile:
 
 run:
 	@echo "Running..."
-	@mykernel
+	./mykernel
 
 clean: 
 	@rm -f ${BINS}
