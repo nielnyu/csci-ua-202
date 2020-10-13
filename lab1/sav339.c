@@ -42,6 +42,8 @@ int main() {
 
         execve(strcat(catcmd, command), progname, NULL);
 
+        printf("Command not found...\n");
+
         /* if (strcmp(command, "ls") == 0) {
           progname[0] = "ls"; // set progname
           execve("/bin/ls", progname, NULL);
