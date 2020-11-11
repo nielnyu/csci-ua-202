@@ -1,0 +1,31 @@
+0: 0:running 
+1: 0:running 1:ready 
+2: 0:running 1:ready 2:ready 
+3: 0:blocked 1:running 2:ready 3:ready 
+4: 0:ready 1:running 2:ready 3:ready 
+5: 0:ready 1:blocked 2:running 3:ready 
+6: 0:ready 1:ready 2:running 3:ready 
+7: 0:ready 1:ready 2:running 3:ready 
+8: 0:ready 1:ready 2:running 3:ready 
+9: 0:ready 1:ready 2:blocked 3:running 
+10: 0:ready 1:ready 2:ready 3:running 
+11: 0:ready 1:ready 2:ready 3:running 
+12: 0:running 1:ready 2:ready 3:blocked 
+13: 0:running 1:ready 2:ready 3:ready 
+14: 0:running 1:ready 2:ready 3:ready 
+15: 1:running 2:ready 3:ready 
+16: 1:running 2:ready 3:ready 
+17: 2:running 3:ready 
+18: 2:running 3:ready 
+19: 2:running 3:ready 
+20: 2:running 3:ready 
+21: 3:running 
+22: 3:running 
+23: 3:running 
+
+Finishing time: 23
+CPU Utilization: 1.000000
+Turnaround process 0: 15
+Turnaround process 1: 16
+Turnaround process 2: 19
+Turnaround process 3: 21
